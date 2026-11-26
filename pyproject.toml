@@ -24,7 +24,7 @@ meta_loop = "meta_loop.__main__:main" # Entry point for CLI
 
 [tool.poetry.dependencies]
 python = "^3.11"
-fastapi = "^0.115.8" # For potential API integration
+fastapi = ">=0.115.8,<0.166.0" # For potential API integration
 uvicorn = "^0.34.0"  # For running FastAPI
 fire = "0.7.0"       # For CLI parsing
 loguru = "^0.7.3"    # Logging
