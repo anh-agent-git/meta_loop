@@ -27,7 +27,7 @@ python = "^3.11"
 fastapi = "^0.115.8" # For potential API integration
 uvicorn = "^0.34.0"  # For running FastAPI
 fire = "0.7.0"       # For CLI parsing
-loguru = "^0.7.3"    # Logging
+loguru = ">=0.7.3,<0.9.0"    # Logging
 httpx = "^0.28.1"    # HTTP requests
 pydantic = "2.10.6"  # Core dependency for agent models
 #pydantic-ai = "^0.1.0"  # Placeholder: Replace with actual package if exists
